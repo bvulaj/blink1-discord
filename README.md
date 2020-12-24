@@ -8,6 +8,6 @@ Blink(1) integration for Discord
 
 ## Running
 
-Run with `node blinkmute.js`
-
-Kill with `Ctrl-c`
+- Run with `node blinkmute.js`
+- Check Discord and accept the access
+- Kill with `Ctrl-c`
