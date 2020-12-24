@@ -9,6 +9,6 @@ Blink(1) integration for Discord. Currently supports changing colors based on mu
 ## Running
 - Run `npm install` on first run
 - Run with `node blinkmute.js`
-- Check Discord and aggree to account access
+- Check Discord and agree to account access
 - Blink(1) will change color based on whether or not you are muted
 - Kill with `Ctrl-c`
