@@ -24,7 +24,7 @@ const server = http.createServer((req, res) => {
 });
 
 async function updateBlink(vs) {
-	if (vs.mute) {
+	if (vs.mute || vs.deaf) {
 		blink1.fadeToRGB(500, 0, 100, 0);
 	} else {
 		blink1.fadeToRGB(500, 100, 0, 0);
